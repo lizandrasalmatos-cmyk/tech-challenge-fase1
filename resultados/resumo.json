@@ -1,0 +1,93 @@
+{
+  "registros": 569,
+  "variaveis": 30,
+  "ausentes": 0,
+  "duplicados": 0,
+  "infinitos": 0,
+  "negativos": 0,
+  "divisao": {
+    "treino": {
+      "total": 341,
+      "malignos": 127,
+      "benignos": 214
+    },
+    "validacao": {
+      "total": 114,
+      "malignos": 43,
+      "benignos": 71
+    },
+    "teste": {
+      "total": 114,
+      "malignos": 42,
+      "benignos": 72
+    }
+  },
+  "validacao": {
+    "Regressão logística": {
+      "accuracy": 0.9736842105263158,
+      "recall": 0.9767441860465116,
+      "f1": 0.9655172413793104,
+      "precision": 0.9545454545454546
+    },
+    "Árvore de decisão": {
+      "accuracy": 0.9122807017543859,
+      "recall": 0.9069767441860465,
+      "f1": 0.8863636363636364,
+      "precision": 0.8666666666666667
+    }
+  },
+  "teste": {
+    "Regressão logística": {
+      "accuracy": 0.9736842105263158,
+      "recall": 0.9523809523809523,
+      "f1": 0.963855421686747,
+      "precision": 0.975609756097561
+    },
+    "Árvore de decisão": {
+      "accuracy": 0.9298245614035088,
+      "recall": 0.8809523809523809,
+      "f1": 0.9024390243902439,
+      "precision": 0.925
+    }
+  },
+  "escolhido": "Regressão logística",
+  "matrizes": {
+    "Regressão logística": [
+      [
+        71,
+        1
+      ],
+      [
+        2,
+        40
+      ]
+    ],
+    "Árvore de decisão": [
+      [
+        69,
+        3
+      ],
+      [
+        5,
+        37
+      ]
+    ]
+  },
+  "correlacao_raio_perimetro": 0.9978312571328584,
+  "importancia_top3": {
+    "worst perimeter": 0.7820819536123976,
+    "worst concave points": 0.07881333055272555,
+    "worst texture": 0.060622755515362815
+  },
+  "shap_top3": {
+    "worst perimeter": 0.27467985071310336,
+    "worst concave points": 0.10990717268911356,
+    "worst texture": 0.05477398892077487
+  },
+  "coeficientes_top3": {
+    "worst texture": 1.355328830581471,
+    "mean concave points": 1.1042897928099449,
+    "radius error": 1.0259392748639213
+  },
+  "baseline_accuracy_teste": 0.631578947368421
+}
