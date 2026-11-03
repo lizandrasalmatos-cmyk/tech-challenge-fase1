@@ -71,9 +71,13 @@ O modelo é escolhido pelo maior recall de malignos na validação, com F1 como 
 
 A interpretação inclui importância das variáveis e SHAP para a árvore, além de coeficientes padronizados para a regressão. SHAP é calculado na validação. As correlações entre medidas limitam a interpretação isolada de cada variável; importância não prova causa.
 
-## Antes de entregar
+## Entrega
 
-Preencha os links reais do repositório e do vídeo em `entrega.json` e gere o PDF novamente. Não entregue o PDF enquanto os links estiverem pendentes. O vídeo deve ter no máximo 15 minutos.
+- Repositório: https://github.com/lizandrasalmatos-cmyk/tech-challenge-fase1
+- Vídeo de demonstração: https://youtu.be/1myDvkwGU7o
+- Relatório: `output/pdf/relatorio_tecnico.pdf`.
+
+Os links e a identificação ficam em `entrega.json`. Caso sejam alterados, execute `python src/gerar_relatorio.py` para atualizar o PDF.
 
 ## Resultados obtidos
 
