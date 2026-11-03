@@ -58,8 +58,6 @@ docker rm relatorio-fase1
 - `resultados/`: estatísticas, correlações, métricas e gráficos reais da execução.
 - `output/pdf/`: relatório técnico.
 - `entrega.json`: identificação e links que aparecem no PDF.
-- `ROTEIRO_VIDEO.md`: sequência para demonstrar o projeto.
-- `COMO_ENTREGAR.md`: publicação e conferência da entrega.
 
 ## Decisões do experimento
 
@@ -75,7 +73,7 @@ A interpretação inclui importância das variáveis e SHAP para a árvore, alé
 
 ## Antes de entregar
 
-Preencha os links reais do repositório e do vídeo em `entrega.json` e gere o PDF novamente. Não entregue o PDF enquanto os links estiverem pendentes. O vídeo deve ter no máximo 15 minutos. Os passos estão em `COMO_ENTREGAR.md`.
+Preencha os links reais do repositório e do vídeo em `entrega.json` e gere o PDF novamente. Não entregue o PDF enquanto os links estiverem pendentes. O vídeo deve ter no máximo 15 minutos.
 
 ## Resultados obtidos
 
